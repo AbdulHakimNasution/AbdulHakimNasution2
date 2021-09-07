@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a1.css">
+    <title>Tugas2Form</title>
+</head>
+<body>
+    <table style="color:rgb(62, 60, 179);"style="border:2px solid Black;"width="45%" rowspan="2" align="right" style="vertical-align: bottom" border="1">
+
+        <td style="background-color:gold;" color:silver font-style: oblique;>My name is Abdul Hakim Rahmad Nasution from <i>Information Technology</i><strong> Universitas Sumatera Utara</strong>(USU)</td>
+
+    </table>
+<!--Account-->
+
+    <form action="form.html" method="get">
+        <fieldset class="access2"> 
+            <legend class="access1">Account</legend>
+        <li><label for="username"></label>Username</label><br>
+        <input type="text" name="Username" id="username"><br>
+
+        <li><label for="NIM"></label>NIM</label></li>
+        <input type="number" name="NIM" id="NIM"><br></li>
+
+        <li><label for="email"></label>Email</label><br>
+        <input type="email" name="Email" id="email"><br></li>
+
+        <li><label for="password"></label>Password</label><br>
+        <input type="password" name="password" id="passworde"><br></li>
+
+        <li><label for="copassword"></label>Confirm Password</label><br>
+        <input type="password" name="copassword" id="copassword"></li>
+        </fieldset>
+
+<!--Identity-->
+
+       <fieldset class="access2"> 
+            <legend class="access1">Identity</legend>
+            <li><label for="birthday">Birthday</label><br>
+            <input type="date" id="birthday" name="birthday"></li>
+            <li><label for="food">Choose your Favourite Food</label><br>
+            <select id="food" name="food"><br>
+         <option value="Mietball">Mietball</option><br>
+         <option value="Fried Rice">Fried Rice</option><br>
+         <option value="Sate">Sate</option><br>
+         <option value="Martabak">Martabak</option><br>
+         <option value="Soto">Soto</option><br>
+         <option value="Ketoprak">Ketoprak</option><br>
+        </select></li>
+
+        <li>Choose your Favourite Music Genre</li>
+
+        <p><input type="radio" id="Pop" name="fav_music" value="Pop">
+        <label for="Pop">Pop</label></p>
+
+         <p><input type="radio" id="Rock" name="fav_music" value="Rock">
+         <label for="Rock">Rock</label></p>
+
+         <p><input type="radio" id="Jazz" name="fav_music" value="Jazz">
+         <label for="Jazz">Jazz</label></p>
+
+         <p><input type="radio" id="Dangdut" name="fav_music" value="Dangdut">
+        <label for="Dangdut">Dangdut</label></p>
+
+        <li>Choose your Hobby</li><br>
+
+  <p2><input type="checkbox" id="hobby1" name="hobby1" value="Swimming">
+  <label for="hobby1">Swimming</label><br><br></p2>
+
+  <p2><input type="checkbox" id="hobby2" name="hobby2" value="Basketball">
+  <label for="hobby2">Basketball</label><br><br></p2>
+
+  <p2><input type="checkbox" id="hobby3" name="hobby3" value="Football">
+  <label for="hobby3">Football</label><br><br></p2>
+
+  <p2><input type="checkbox" id="hobby4" name="hobby4" value="Badminton">
+  <label for="hobby4">Badminton</label><br><br></p2>
+
+
+<p3>Please enter your comment here</p3>
+  <textarea name="message" rows="5" cols="34"></textarea>
+  <br><br><br>
+
+  <input type="submit" value="Submit">
+  <input type="reset"  value="Reset">
+  </fieldset>
+  </form>
+  </a1as>
+    
+</body>
+</html>
